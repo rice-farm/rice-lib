@@ -1,17 +1,18 @@
 {
-  "name": "@pancakeswap/pancake-swap-lib",
-  "version": "0.0.4",
-  "description": "Pancake Swap Lib",
+  "name": "@ricefarm/rice-lib",
+  "version": "0.0.1",
+  "description": "Solidity libraries that are shared across Rice contracts.",
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:pancakeswap/pancake-swap-lib.git"
+    "url": "ssh://git@github.com:rice-farm/rice-lib.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "http://registry.npmjs.org",
+    "access": "public"
   },
   "engines": {
     "node": ">=10"
